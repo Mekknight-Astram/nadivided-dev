@@ -2657,22 +2657,12 @@ focus = {
 	        }
 		
 		completion_reward = {
-	            core_alabama = yes
-				core_georgia = yes
-				core_mississippi = yes
-				core_arkansas = yes
-                core_louisiana = yes
-
-			create_wargoal = {
+	       	core_Oklahoma = yes
+		core_Texas = yes
+		core_Georgia = yes
+		core_Alabama = yes
+		create_wargoal = {
 	                target = SLA
-	                type = annex_everything
-	            }
-			create_wargoal = {
-	                target = SGA
-	                type = annex_everything
-	            }
-                	create_wargoal = {
-	                target = SAL
 	                type = annex_everything
 	            }
                  	create_wargoal = {

@@ -2647,30 +2647,46 @@ focus = {
 		id = SNC_attack_the_jeffesonians
 		icon = GFX_focus_SAL_end_jeffersonians
 		prerequisite = { focus = SNC_Reclaim_the_south }
-		x = 1
+		x = 1			
 		y = 1
 		relative_position_id = SNC_Reclaim_the_south
 		cost = 10
-        mutually_exclusive = { focus = SNC_ally_huey }
+	       mutually_exclusive = { focus = SNC_ally_huey }
 		available_if_capitulated = yes
-        available = {
-			
-        }
+	       available = {		
+	        }
+		
 		completion_reward = {
-            core_alabama = yes
-			core_georgia = yes
-			core_mississippi = yes
-			core_arkansas = yes
-            create_wargoal = {
-                target = SLA
-                type = annex_everything
-            }
+	            core_alabama = yes
+				core_georgia = yes
+				core_mississippi = yes
+				core_arkansas = yes
+                core_louisiana = yes
+
 			create_wargoal = {
-                target = SGA
-                type = annex_everything
-            }
+	                target = SLA
+	                type = annex_everything
+	            }
+			create_wargoal = {
+	                target = SGA
+	                type = annex_everything
+	            }
+                	create_wargoal = {
+	                target = SAL
+	                type = annex_everything
+	            }
+                 	create_wargoal = {
+	                target = SMS
+	                type = annex_everything
+	            }
+                 	create_wargoal = {
+	                target = SAR
+	                type = annex_everything
+	            }
 		}
 	}
+
+
 	focus = {
 		id = SNC_Triumph_in_louisiana
 		icon = GFX_focus_SNC_Triumph_in_louisiana
